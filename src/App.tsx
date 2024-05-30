@@ -1,14 +1,14 @@
 //rafc
 //ctrl+k+c
-import React from 'react'
 //import { ContadorCustomHook } from './components/ContadorCustomHook';
 //import { ComponenteUseEffect } from './components/ComponenteUseEffect';
-import { Login } from './components/Login';
+//import { Login } from './components/Login';
 //import { Contador } from './components/Contador';
 //import { Funciones } from './typescript/Funciones';
 //import TiposBasicos from './typescript/TiposBasicos';
 //import { TiposBasicos } from './typescript/TiposBasicos';
 //import { ObjetosLiterales } from './typescript/ObjetosLiterales';
+import { Usuarios } from './components/Usuarios';
 
 const App = () => {
   return (
@@ -21,7 +21,8 @@ const App = () => {
       {/* <Contador/> */}
       {/* <ContadorCustomHook/> */}
       {/* <ComponenteUseEffect/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Usuarios/>
     </div>
   )
 }
